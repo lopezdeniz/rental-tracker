@@ -76,12 +76,13 @@
   import { ref, computed, watchEffect } from 'vue';
   
   const rooms = ref([
-    { name: "АГАТ", paymentType: "День", startDate: "2025-04-01", dueDate: "", tenant: "", pricePerDay: 50, pricePerWeek: 220, pricePerMonth: 750 },
+
     { name: "№ 1 КАЛЬЦИТ", paymentType: "Неделя", startDate: "2025-04-02", dueDate: "", tenant: "", pricePerDay: 55, pricePerWeek: 300, pricePerMonth: 950 },
-    { name: "№ 4 ТУРМАЛИН", paymentType: "Месяц", startDate: "2025-04-03", dueDate: "", tenant: "", pricePerDay: 55, pricePerWeek: 300, pricePerMonth: 950 },
-    { name: "ЯНТАРЬ", paymentType: "День", startDate: "2025-04-04", dueDate: "", tenant: "", pricePerDay: 60, pricePerWeek: 350, pricePerMonth: 1100 },
     { name: "№ 2 ЭМЕРАЛЬД", paymentType: "Неделя", startDate: "2025-04-05", dueDate: "", tenant: "", pricePerDay: 60, pricePerWeek: 350, pricePerMonth: 1100 },
-    { name: "АМЕТИСТ", paymentType: "Месяц", startDate: "2025-04-06", dueDate: "", tenant: "", pricePerDay: 60, pricePerWeek: 350, pricePerMonth: 1100 }
+    { name: "№ 3 ЯНТАРЬ", paymentType: "День", startDate: "2025-04-04", dueDate: "", tenant: "", pricePerDay: 60, pricePerWeek: 350, pricePerMonth: 1100 },
+    { name: "№ 4 ТУРМАЛИН", paymentType: "Месяц", startDate: "2025-04-03", dueDate: "", tenant: "", pricePerDay: 55, pricePerWeek: 300, pricePerMonth: 950 },
+    { name: "№ 5 АМЕТИСТ", paymentType: "Месяц", startDate: "2025-04-06", dueDate: "", tenant: "", pricePerDay: 60, pricePerWeek: 350, pricePerMonth: 1100 },
+    { name: "№ 6 АГАТ", paymentType: "День", startDate: "2025-04-01", dueDate: "", tenant: "", pricePerDay: 50, pricePerWeek: 220, pricePerMonth: 750 }
   ]);
   
   const filter = ref({
